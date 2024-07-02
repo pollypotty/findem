@@ -1,0 +1,28 @@
+<?php
+
+const MESSAGES = [
+    'error' => "Valami hiba történt.",
+    'invalidEmail' => "Nem megfelelő email cím.",
+    'duplicateEmail' => "Már korábban regisztráltak a megadott email címmel.",
+    'missingData' => "Az összes mező kitöltése kötelező!",
+    'pwMatch' => "A jelszavak nem egyeznek.",
+    'loginError' => "Hibás e-mail cím vagy jelszó!",
+    'welcome' => "Üdvözlünk",
+    'logout' => "Sikeresen kijelentkeztél a fiókodból. Várunk vissza!",
+    'pwUpdateError' => "Nem lehet egyik mező sem üres!",
+    'wrongOldPw' => "Régi jelszó hibás!",
+    'samePwError' => "A régi és az új jelszavak nem egyezhetnek meg!",
+    'pwUpdateSuccess' => "Jelszó sikeresen megváltoztatva.",
+    'serviceUpdateSuccess' => "Adatok sikeresen frissítve.",
+    'deleteProfileSuccess' => "A profilodat töröltük.",
+    'deleteProfileError' => "Hiba történt a profil törlése közben. \n Próbáld meg még egyszer!",
+    'invalidDate' => "A megadott dátum nem megfelelő.",
+    'invalidTime' => "Nem megfelelő az időpont formátuma.",
+    'invalidDuration' => "A hírdetés időtartama nem a megengedett tartományban van.",
+    'invalidFee' => "A szolgáltatás ára csak pozitív egész szám lehet!",
+    'appointmentAdded' => "Az időpont sikeresen feltöltve.",
+    'appointmentReserved' => "Sikeresen lefoglaltad az időpontot.",
+    'registrationSuccess' => "Sikeresen regisztráltál.",
+    'seekerMsg' => "Most már foglalhatsz is a szabad időpontok közül.",
+    'serviceMsg' => "Most már tölthetsz fel időpontokat.",
+];

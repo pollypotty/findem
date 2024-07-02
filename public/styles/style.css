@@ -1,0 +1,414 @@
+/*ALL*/
+
+body{
+    background-color: #004B84;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#navbar {
+    background-color: #004B84;
+}
+
+#findemLogo{
+    width: 200px;
+}
+
+.titles {
+    text-transform: uppercase;
+    font-family: 'IBM Plex Mono';
+    color: white;
+    position: relative;
+    z-index: 1;
+    
+    &:before {
+        border-top: 2px solid white;
+        content:"";
+        margin: 0 auto; 
+        position: absolute; 
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 95%;
+        z-index: -1;
+    }    
+}
+
+.titles > span { 
+    background: #004B84; /*szöveg háttere*/ 
+    padding: 0 15px; 
+}
+
+.line{
+    width: 100%;
+    color: white;
+    margin: 30px auto; 
+    position: center; 
+    background-color: white;
+    opacity: 1;
+
+}
+
+/* FOOTER */
+
+.footerContact{
+    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+.footerItems{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+
+.footerPics{
+    max-width: 100%;
+}
+
+
+.footer-credit {
+    margin: 30px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+.footer-links {
+    list-style: none; 
+    display: block;
+    margin-bottom: 10px;
+}
+
+.mail_logo{
+    max-width: 150px;
+    margin-bottom: 20px;
+    max-height: 100%;
+
+}
+
+@media (max-width: 767px) {
+    .site-footer .container,
+    .site-footer .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .card-subtitle {
+            font-size: 4vw;
+        
+    }
+    .card-title {
+        font-size: 6vw;
+    }
+}
+
+
+
+/*Index*/
+
+.servicesGif{
+    max-width: 100%;
+    height: auto;
+    position: center;
+    max-height: 200px;
+}
+
+.card-body{
+    background-color: #077877;
+    color: white;
+    min-height: 280px;
+
+}
+
+.card-title{
+    padding-bottom: 20px;
+}
+
+.card-subtitle{
+    color: white!important;
+    margin: 10px;
+}
+
+.btnReserve{
+    border: solid 1px white;
+    padding: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.btnReserve:hover{
+    color: #077877;
+    background-color: white;
+    border: 1px solid #077877;
+}
+
+.categoriesOnHomePage{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.serviceCategories{
+    max-width: 150px;
+    border: 1px solid white;
+
+}
+
+.btn-primary{
+    background-color: #077877;
+    border: 1px solid white;
+}
+
+.btn-primary:hover{
+    color: #077877;
+    background-color: white!important;
+    border: 1px solid #077877!important;
+}
+
+.imgCarousel{
+    max-width: 100%;
+    height: auto;
+    max-height: 1000px;
+}
+
+.joinUsPicture{
+    max-width: 100%;
+    margin-top: 60px;
+    max-height: 300px;
+}
+
+#joinUsText{
+    color: white;
+}
+
+/*appointments*/
+
+.reservationTable{
+    border: 3px solid #077877;
+}
+
+.reservationTableItem {
+    background-color: #077877;!important
+}
+
+.buttonReserve{
+    color: white;
+}
+
+/*aboutUs*/
+
+.aboutUs-logo{
+    max-width: 300px;
+    margin-bottom: 20px;
+    max-height: 100%;
+}
+
+.aboutUsText{
+    color: white;
+    text-align: center;
+}
+
+
+/*registration*/
+
+#registration-logo{
+    max-width: 100px;
+    margin: 30px;
+    max-height: 100%;
+
+}
+
+.registrationBox{
+    border: solid 2px white;
+    padding: 10px;
+    width: 400px;
+    background-color: #077877;
+    color: white;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.registrationBox input,
+.registrationBox select {
+    width: 100%;
+    max-width: 100%;
+}
+
+.registrationBox input[type="checkbox"] {
+    width:15px;
+}
+
+.provider_form {
+    display: none;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.signIn-logo{
+    max-width: 90px;
+    margin-bottom: 20px;
+}
+
+/*login*/
+
+.loginForm{
+border: solid 2px white;
+    padding: 10px;
+    width: 400px;
+    background-color: #077877;
+    color: white;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.loginForm input,
+.loginForm select {
+    width: 100%;
+    max-width: 100%;
+}
+
+.loginForm input[type="checkbox"] {
+    width:15px;
+}
+
+
+
+/*contact*/
+
+.mail{
+    position: center;
+    margin: auto;
+    color: white;
+}
+
+
+.contactLogo{
+    max-width: 200px;
+    margin: 30px;
+    max-height: 100%;
+}
+
+.mailLogo{
+    max-width: 50px;
+    margin: 30px;
+    max-height: 100%;
+}
+
+#contactMail{
+    color: white;
+}
+
+/* Q&A */
+
+.QALogo{
+    max-width: 100px;
+    max-height: 100%;
+}
+
+/* Adatvédelem */
+
+#dataProtection {
+    color: white;
+}
+
+#dataImage {
+    max-height: 200px;
+}
+
+
+/*account*/
+
+#profil-logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+    max-height: 100%;
+}
+
+#accountOptionsBox {
+    border: solid 2px #077877;
+    padding: 10px;
+    width: 300px;
+    background-color: #077877
+    color: white;    
+    text-decoration: none;!important
+}
+
+.container {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.container.hide {
+    opacity: 0;
+}
+
+
+.profile-del {
+    display: none;
+}
+
+/* adatok módosítása  */
+
+.profilUpdate {
+color: white;
+background-color: #077877;
+border: solid 2px white;
+padding: 10px;
+}
+
+.updateLabel {
+    text-decoration: underline;
+}
+
+#updatePassword {
+    border: none;
+}
+
+/* profil */
+
+.userData {
+    color: white;
+}
+
+.userOptions {
+    color: white;
+    background-color: #077877;
+    border: none;
+    text-decoration: none;
+}
+
+.userOptionBox {
+    background-color: #077877;
+    border: 2px solid white;
+}
+
+.reservationText {
+    color: white;
+}
+
+.reservations {
+    color: white;
+}
+
+/* Q&A */
+
+.questionBox {
+    background-color: #077877;
+    color: white;
+}
+
+#accordionFlushExample {
+    border: 2px solid white;
+}
+
+.nothingsHere {
+    color: white;
+}
